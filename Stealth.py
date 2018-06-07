@@ -13,13 +13,16 @@ import os
 import sys
 script_path = os.path.dirname(os.path.abspath(__file__))
 en_path = os.path.join(script_path, 'util')
-config_path = os.paht.join(script_path, 'config')
+config_path = os.path.join(script_path, 'config')
 sys.path.append(en_path)
 sys.path.append(config_path)
 
-from  welcome import welcome
+#from  welcome import welcome
+from welcome import welcome
 from help import help
 from is_select import select
+#from help import help
+#from is_select import select
 
 if __name__ == '__main__':
     script_path = os.path.dirname(os.path.abspath(__file__))

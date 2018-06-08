@@ -1,24 +1,42 @@
-# Operating 
-# Setting
-# Install
+# Description
+这是一款收集CMS、WHOIS、DNS、robots.txt、子域名、端口信息，系统信息、服务信息的工具
+# Operating  environment
+> 
+>python 3+
+>  
+>linux or windows
+>
+>nmap
+
+# Installation guide 
+> linux 
+> 
+> git clone https://github.com/Qixiaomao/Stealth.git
+>
+>pip install -r requirements.txt
+>
+>
+>
+
 
 # Strcuture
 
-
+```
 .
-├── config
+├── config（配置文件）
 │   ├── cms.txt
 │   └── config.py
-├── README.md
-├── requirements.txt
-├── static
+
+├── README.md（说明文档）
+├── requirements.txt（依赖库）
+├── static（静态资源目录）
 │   ├── Bootsrap.css
 │   ├── main.css
 │   ├── subdomian.css
 │   ├── whois_base.css
 │   └── whois.css
-├── Stealth.py
-└── util
+├── Stealth.py(主函数)
+└── util（功能函数目录）
     ├── cms_info.py
     ├── dns_info.py
     ├── help.py
